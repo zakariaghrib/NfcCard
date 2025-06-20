@@ -12,15 +12,15 @@ import {
 } from 'lucide-react';
 
 const menuItems = [
-  { to: '/', label: 'Tableau de Bord', icon: <Home size={20} /> },
-  { to: '/filieres', label: 'Gestion des Filières', icon: <Layers size={20} /> },
-  { to: '/modules', label: 'Gestion des Modules', icon: <BookOpen size={20} /> },
-  { to: '/salles', label: 'Gestion des Salles', icon: <DoorOpen size={20} /> },
-  { to: '/professeurs', label: 'Comptes Professeurs', icon: <Users size={20} /> },
-  { to: '/etudiants', label: 'Gestion des Étudiants', icon: <UserCheck size={20} /> },
-  { to: '/seances', label: 'Gestion des Séances', icon: <Calendar size={20} /> },
-  { to: '/presences', label: 'Rapports de Présence', icon: <FileBarChart size={20} /> },
-  { to: '/logout', label: 'Déconnexion', icon: <LogOut size={20} /> }
+  { to: '/admin', label: 'Tableau de Bord', icon: <Home size={20} /> },
+  { to: '/admin/filieres', label: 'Gestion des Filières', icon: <Layers size={20} /> },
+  { to: '/admin/modules', label: 'Gestion des Modules', icon: <BookOpen size={20} /> },
+  { to: '/admin/salles', label: 'Gestion des Salles', icon: <DoorOpen size={20} /> },
+  { to: '/admin/professeurs', label: 'Comptes Professeurs', icon: <Users size={20} /> },
+  { to: '/admin/etudiants', label: 'Gestion des Étudiants', icon: <UserCheck size={20} /> },
+  { to: '/admin/seances', label: 'Gestion des Séances', icon: <Calendar size={20} /> },
+  { to: '/admin/presence', label: 'Rapports de Présence', icon: <FileBarChart size={20} /> },
+  { to: '/', label: 'Déconnexion', icon: <LogOut size={20} /> }
 ];
 
 const Sidebar = () => {

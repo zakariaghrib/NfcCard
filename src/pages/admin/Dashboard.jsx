@@ -3,7 +3,8 @@ import {
   ResponsiveContainer, PieChart, Pie, Cell, Legend
 } from 'recharts';
 import { Link } from 'react-router-dom';
-import DashboardWidget from '../components/DashboardWidget';
+import DashboardWidget from "../../components/DashboardWidget"
+
 
 function Dashboard() {
   const stats = [
